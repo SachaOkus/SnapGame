@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Snap snapGame = new Snap("Snap Game");
+        snapGame.shuffleDeck();
+        snapGame.playSnap();
     }
 }
